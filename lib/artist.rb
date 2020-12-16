@@ -14,8 +14,7 @@ class Artist
   @@artists = []
 
   def initialize
-    #dup
-    @@artists << self
+    super
     @songs = []
   end
 
