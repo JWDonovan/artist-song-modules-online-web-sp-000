@@ -10,7 +10,6 @@ class Song
   attr_accessor :name
   attr_reader :artist
 
-  #dup
   @@songs = []
 
   def self.all
