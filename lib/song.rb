@@ -25,16 +25,6 @@ class Song
     @@songs
   end
 
-  # dup
-  def self.reset_all
-    self.all.clear
-  end
-
-  # dup
-  def self.count
-    self.all.count
-  end
-
   def artist=(artist)
     @artist = artist
   end
