@@ -17,11 +17,6 @@ class Song
   end
 
   # dup
-  # def self.find_by_name(name)
-  #   @@songs.detect{|a| a.name == name}
-  # end
-
-  # dup
   def self.all
     @@songs
   end
