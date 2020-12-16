@@ -6,7 +6,6 @@ class Song
   extend Findable
   include Paramable
 
-  #dup
   attr_accessor :name
   attr_reader :artist
 
