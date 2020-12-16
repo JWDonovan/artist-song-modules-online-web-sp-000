@@ -7,7 +7,7 @@ class Song
   include Paramable
 
   #dup
-  attr_accessor :name
+  #attr_accessor :name
   attr_reader :artist
 
   #dup
