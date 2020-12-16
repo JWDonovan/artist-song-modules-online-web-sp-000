@@ -3,6 +3,7 @@ require 'pry'
 class Song
   extend Memorable
   extend Findable
+  extend Paramable
 
   #dup
   attr_accessor :name
