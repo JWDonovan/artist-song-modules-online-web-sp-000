@@ -13,7 +13,6 @@ class Song
   #dup
   @@songs = []
 
-  # dup
   def self.all
     @@songs
   end
