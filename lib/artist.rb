@@ -18,7 +18,6 @@ class Artist
     @songs = []
   end
 
-  # dup
   def self.all
     @@artists
   end
