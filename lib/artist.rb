@@ -3,6 +3,7 @@ require 'pry'
 class Artist
   extend Memorable
   extend Findable
+  extend Paramable
 
   #dup
   attr_accessor :name
@@ -16,11 +17,6 @@ class Artist
     @@artists << self
     @songs = []
   end
-
-  # dup
-  # def self.find_by_name(name)
-  #   @@artists.detect{|a| a.name == name}
-  # end
 
   # dup
   def self.all
