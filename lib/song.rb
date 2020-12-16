@@ -2,7 +2,7 @@ require 'pry'
 
 class Song
   extend Memorable
-  
+
   #dup
   attr_accessor :name
   attr_reader :artist
