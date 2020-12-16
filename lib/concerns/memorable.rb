@@ -1,7 +1,5 @@
 module Memorable
   module ClassMethods
-    attr_accessor :name
-
     def reset_all
       all.clear
     end
