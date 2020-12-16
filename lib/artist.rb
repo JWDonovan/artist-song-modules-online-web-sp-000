@@ -2,6 +2,7 @@ require 'pry'
 
 class Artist
   extend Memorable
+  extend Findable
 
   #dup
   attr_accessor :name
